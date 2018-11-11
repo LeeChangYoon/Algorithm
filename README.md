@@ -33,7 +33,7 @@ Q2) Fibonacci numbers start with 0 and 1. The 0th Fibonacci number is 0 and the 
     
    number is 1. The following is the sum of the two previous Fibonacci numbers. 
     
-   That is, Fn=Fn-1+ Fn-2 (n≥2).
+   **That is, Fn=Fn-1+ Fn-2 (n≥2).**
     
    ![](Fibonacci.png)
 
