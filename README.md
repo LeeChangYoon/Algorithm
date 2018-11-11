@@ -35,7 +35,7 @@ Q2) Fibonacci numbers start with 0 and 1. The 0th Fibonacci number is 0 and the 
     
    That is, Fn=Fn-1+ Fn-2 (n≥2).
     
-    ![](Fibonacci.png)
+   ![](Fibonacci.png)
 
    For example, when 2 ≤ n ≤ 17, Fibonacci numbers are,
 
