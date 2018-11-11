@@ -47,7 +47,7 @@ Q2) Fibonacci numbers start with 0 and 1. The 0th Fibonacci number is 0 and the 
   **[Output]** 
   - Print the nth Fibonacci number in the first line.
   
-  Example: Input                                                Example: Output
+  *Example: I/O*
   
   ![](Q2.png)
   
@@ -57,18 +57,19 @@ Q3. Algortihms for Prime Nuber
 Q3) When M and N are the natural numbers, select all of the prime numbers greater than or equal to M and less than or equal to N.
     Write a code to find the sum and the minimum value of these prime numbers. 
 
-    For example, in case of M=60 and N=100, the prime numbers are 61, 67, 71, 73, 79, 83, 89, 97.
-    Therefore, the sum of these prime numbers is 620, and the minimum value is 61. 
+   For example, in case of M=60 and N=100, the prime numbers are 61, 67, 71, 73, 79, 83, 89, 97.
+   Therefore, the sum of these prime numbers is 620, and the minimum value is 61. 
 
 **[Input]**
 
 - M is given on the first line, and N is given on the second line.
- - M and N are natural numbers less than 10,000 and M is equal to or less than N.
+- M and N are natural numbers less than 10,000 and M is equal to or less than N.
 
 **[Output]**
+ 
  Find all of the prime numbers greater than or equal to M and less than or equal to N, 
  and print the sum to the first line and the minimum value to the second line.
  However, if there is no prime number greater than or equal to M and less than or equal to N, print -1 on the first line.
 
-*Example: Input                                                     Example: Output*
+*Example: I/O*
 ![](Q3.png)
