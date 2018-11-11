@@ -30,16 +30,18 @@ Q2. Fibonacci Algoritm
 ----------------------
 
 Q2) Fibonacci numbers start with 0 and 1. The 0th Fibonacci number is 0 and the 1st Fibonacci 
-    number is 1. The following is the sum of the two previous Fibonacci numbers. 
-    That is, Fn=Fn-1+ Fn-2 (n≥2).
+    
+   number is 1. The following is the sum of the two previous Fibonacci numbers. 
+    
+   That is, Fn=Fn-1+ Fn-2 (n≥2).
     
     ![](Fibonacci.png)
 
-    For example, when 2 ≤ n ≤ 17, Fibonacci numbers are,
+   For example, when 2 ≤ n ≤ 17, Fibonacci numbers are,
 
-    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
+   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
 
-    When n is given, write a code to obtain the nth Fibonacci number.
+   When n is given, write a code to obtain the nth Fibonacci number.
 
   **[Input]**
   - n is given on the first line and the n is a natural number less than or equal to 45. 
@@ -55,9 +57,11 @@ Q3. Algortihms for Prime Nuber
 ------------------------------
 
 Q3) When M and N are the natural numbers, select all of the prime numbers greater than or equal to M and less than or equal to N.
-    Write a code to find the sum and the minimum value of these prime numbers. 
+    
+   Write a code to find the sum and the minimum value of these prime numbers. 
 
    For example, in case of M=60 and N=100, the prime numbers are 61, 67, 71, 73, 79, 83, 89, 97.
+   
    Therefore, the sum of these prime numbers is 620, and the minimum value is 61. 
 
 **[Input]**
@@ -68,7 +72,9 @@ Q3) When M and N are the natural numbers, select all of the prime numbers greate
 **[Output]**
  
  Find all of the prime numbers greater than or equal to M and less than or equal to N, 
+ 
  and print the sum to the first line and the minimum value to the second line.
+ 
  However, if there is no prime number greater than or equal to M and less than or equal to N, print -1 on the first line.
 
 *Example: I/O*
