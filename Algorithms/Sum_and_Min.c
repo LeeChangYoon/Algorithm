@@ -1,61 +1,34 @@
 #include <stdio.h>
 
-#define MAX 10000
-
 int main()
 {
+	int arr[10000];
 	int M, N;
-	int result_min;
-	int result_sum;
+	int sum = 0;
+	scanf_s("%d %d", &M, &N);
+	int MIN = N;
 
-	scanf("%d", &M);
-	scanf("%d", &N);
-
-	if (M <= MAX && N <= MAX && M <= N);
-	else
-		exit(0);
+	for (int i = M; i <= N; i++)
+		arr[i] = i;
 	
-	result_sum = Prime_Sum(M, N);
-	printf("%d\n", result_sum);
-
-	result_min = Prime_Min(M, N);
-	printf("%d\n", result_min);
-
-	return 0;
-}
-
-int Prime(int a)
-{
-	int j;
-
-	for (j = 2; j <= a; j++)
+	for (int i = 2; i <= N; i++)
 	{
-		if (a%j == 0)
+		if (arr[i] == 0) continue;
+
+		for (int j = i + i; j <= N; j += i)
+			arr[j] = 0;
+	}
+
+	for (int i = M; i <= N; i++)
+	{
+		sum = sum + arr[i];
+		if (arr[i] != 0 && MIN > arr[i])
 		{
-			if (a == j)	return a;
-			else return 0;
+			MIN = arr[i];
 		}
 	}
-}
 
-int Prime_Sum(int min, int max)
-{
-	int sum = 0;
-	int prime_number;
+	printf_s("%d\n%d\n", sum, MIN);
 
-	for (int i = min; i <= max; i++)
-	{
-		prime_number = Prime(i);
-		sum = sum + prime_number;	
-	}
-	return sum;
-}
-
-int Prime_Min(int min, int max)
-{
-	for (int i = min; i <= max; i++)
-	{
-		if (Prime(i) != 0)
-			return Prime(i);
-	}
+	return 0;
 }
