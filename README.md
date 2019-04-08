@@ -79,3 +79,12 @@ Q3) When M and N are the natural numbers, select all of the prime numbers greate
 
 *Example: I/O*
 ![](Q3.png)
+
+Q4. Algorithms for filling array in snail shape
+-----------------------------------------------
+
+Q4) ![](Q4.png)
+
+*Example: I/O*
+![](Q4_Output_1.png)
+![](Q4_Output_2.png)
