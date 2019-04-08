@@ -86,5 +86,6 @@ Q4. Algorithms for filling array in snail shape
 Q4) ![](Q4.png)
 
 *Example: I/O*
+
 ![](Q4_Output_1.png)
 ![](Q4_Output_2.png)
